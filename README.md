@@ -1,6 +1,6 @@
 # SQLAlchemy Challenge
 
-Analyse weather data from various weather stations in Hawaii using Python, SQLAlchemy and SQLite!
+Analyse weather data from various weather stations in Hawaii using Python, SQLAlchemy, SQLite and Flask!
 
 Created and submitted for an assignment for Monash University Data Analytics Boot Camp (August 2023).
 
@@ -21,7 +21,7 @@ Created and submitted for an assignment for Monash University Data Analytics Boo
 
 ### hawaii_api_app.py
 
-- Integrates queries from hawaii_query_code.ipnyb into web server app that is accessible using api queries.
+- Integrates queries from hawaii_query_code.ipnyb into api-accessible web server app using Flask.
 
 ## Technologies
 
@@ -33,6 +33,7 @@ Project created and run using:
   - Matplotlib 3.7.1
 - SQLAlchemy 1.4.39
 - SQLite 3.41.2
+- Flask 2.2.2
 - Visual Studio Code 1.79.2
 - Jupyter Notebook 5.3.0
 
@@ -40,7 +41,7 @@ Project created and run using:
 
 #### API Web Server
 
-![ERD](SurfsUp/api_web_server.png)
+![ERD](SurfsUp/Resources/api_web_server.png)
 
 ## Code example
 
